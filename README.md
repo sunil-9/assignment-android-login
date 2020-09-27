@@ -5,17 +5,34 @@ In this Assignment, I have created an android application with splash activity w
 [//]: # (Video insert)
 
 <!-- blank line -->
-<figure class="video_container">
-  <video controls="true" allowfullscreen="true" poster="Screenshot_2020-09-27-10-33-21-90_ee015900260ab508ba0bf0f18dc28a83.jpg">
-    <source src="Record_2020-09-27-10-32-40.mp4" type="video/mp4">
-
-  </video>
-</figure>
+<video width="500" height="300" controls>
+  <source src="Record_2020-09-27-10-32-40.mp4" type="video/mp4">
+</video>
 <!-- blank line -->
 
  
 
-[//]: # (image insert)
+[//]: # (image insert 1)
 <!-- blank line -->
-<img class="ui bottom aligned tiny image" src="Screenshot_2020-09-27-10-33-21-90_ee015900260ab508ba0bf0f18dc28a83.jpg">
+<img class="ui bottom aligned tiny image" src="Screenshot_2020-09-27-10-33-21-90_ee015900260ab508ba0bf0f18dc28a83.jpg" height = "600" width="360">
+<!-- blank line -->
+
+[//]: # (image insert 2)
+<!-- blank line -->
+<img class="ui bottom aligned tiny image" src="Screenshot_2020-09-27-10-33-27-00_ee015900260ab508ba0bf0f18dc28a83.jpg" height = "600" width="360">
+<!-- blank line -->
+
+[//]: # (image insert 3)
+<!-- blank line -->
+<img class="ui bottom aligned tiny image" src="Screenshot_2020-09-27-10-34-21-23_ee015900260ab508ba0bf0f18dc28a83.jpg" height = "600" width="360">
+<!-- blank line -->
+
+[//]: # (image insert 4)
+<!-- blank line -->
+<img class="ui bottom aligned tiny image" src="Screenshot_2020-09-27-10-34-26-56_ee015900260ab508ba0bf0f18dc28a83.jpg" height = "600" width="360">
+<!-- blank line -->
+
+[//]: # (image insert 5)
+<!-- blank line -->
+<img class="ui bottom aligned tiny image" src="Screenshot_2020-09-27-10-34-34-25_ee015900260ab508ba0bf0f18dc28a83.jpg" height = "600" width="360">
 <!-- blank line -->
