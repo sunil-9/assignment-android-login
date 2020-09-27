@@ -47,6 +47,7 @@ public class SwipeGesture implements View.OnTouchListener  {
                         onSwipeBottom();
                     } else {
                         onSwipeTop();
+
                     }
                     result = true;
                 }

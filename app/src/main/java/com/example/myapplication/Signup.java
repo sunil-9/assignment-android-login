@@ -57,7 +57,7 @@ public class Signup extends AppCompatActivity  implements SwipeGesture.onSwipeLi
         Login fragment = Login.newInstance();
         FragmentManager fragmentManager = getSupportFragmentManager();
         FragmentTransaction transaction = fragmentManager.beginTransaction();
-        transaction.setCustomAnimations(R.anim.left_enter, R.anim.right_enter, R.anim.left_enter, R.anim.right_enter);
+//        transaction.setCustomAnimations(R.anim.left_enter, R.anim.right_enter, R.anim.left_enter, R.anim.right_enter);
         transaction.addToBackStack(null);
         setTitle("Login");
         transaction.replace(R.id.login_frag, fragment).commit();
@@ -74,7 +74,6 @@ public class Signup extends AppCompatActivity  implements SwipeGesture.onSwipeLi
         radioButton = (RadioButton) findViewById(R.id.acceptTerms);
         button = (Button) findViewById(R.id.signup);
 
-//        swipe gerture
 
         //validation
         button.setOnClickListener(new View.OnClickListener() {
@@ -83,6 +82,7 @@ public class Signup extends AppCompatActivity  implements SwipeGesture.onSwipeLi
                 if (username.length() < 3 ) {
                     Toast.makeText(getApplicationContext(), "Username must be more than 3 digits", Toast.LENGTH_SHORT).show();
                     makeMeShake(username,20,9);
+                    username.setError("username cant be empty");
                 }
                 else if (email.length() <5) {
                     Toast.makeText(getApplicationContext(), "Enter valid email address", Toast.LENGTH_SHORT).show();
