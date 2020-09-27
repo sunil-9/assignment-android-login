@@ -68,12 +68,11 @@ public class SwipeGesture implements View.OnTouchListener  {
     }
     void onSwipeTop() {
         Toast.makeText(context, "Swiped Up", Toast.LENGTH_SHORT).show();
-        this.onSwipe.swipeTop();
     }
     void onSwipeBottom() {
         Toast.makeText(context, "Swiped Down", Toast.LENGTH_SHORT).show();
         Signup s = new Signup();
-        s.openFragment();
+        s.openFragmentWithSwipe();
         this.onSwipe.swipeBottom();
     }
     interface onSwipeListener {
