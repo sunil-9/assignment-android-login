@@ -5,9 +5,9 @@ In this Assignment, I have created an android application with splash activity w
 [//]: # (Video insert)
 
 <!-- blank line -->
-<video width="500" height="300" controls>
-  <source src="Record_2020-09-27-10-32-40.mp4" type="video/mp4">
-</video>
+
+<iframe src="https://www.youtube.com/watch?v=dCjTS9M6y2U" height="200" width="300" title="Assignment"></iframe>
+
 <!-- blank line -->
 
  
