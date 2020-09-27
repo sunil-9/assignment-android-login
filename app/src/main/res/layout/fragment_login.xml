@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:orientation="vertical"
+    android:background="@drawable/login"
+    android:id="@+id/login_layout"
+    >
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="250dp"
+        android:layout_height="230dp"
+        android:src="@drawable/logo_transparent"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"/>
+
+    <EditText
+        android:id="@+id/username_login"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:drawableRight="@drawable/user1"
+        />
+
+    <EditText
+        android:id="@+id/password_login"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:textSize="25dp"
+        android:inputType="textPassword"
+        android:drawableRight="@drawable/password"
+        />
+    <RadioButton
+        android:id="@+id/remember_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="remember your password"
+        android:layout_gravity="center"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:id="@+id/login"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="190dp"
+        android:text="LOG IN"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:background="@android:color/transparent"
+        />
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/insta"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="130dp"
+       />
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/fb1"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginLeft="220dp"
+        />
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/twiter"
+        android:layout_marginStart="235dp"
+        android:layout_marginLeft="310dp"
+       />
+    </LinearLayout>
