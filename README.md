@@ -1,4 +1,4 @@
-# assignment-android-login
+# Assignment-android-login
 
 In this Assignment, I have created an android application with splash activity with a progress bar and create login and signup UI and check basic validation, and setup simple profile UI
 
@@ -6,24 +6,24 @@ In this Assignment, I have created an android application with splash activity w
 
 <!-- blank line -->
 
-<iframe src="https://www.youtube.com/watch?v=dCjTS9M6y2U" height="200" width="300" title="Assignment"></iframe>
+[Youtube](https://www.youtube.com/watch?v=dCjTS9M6y2U)
 
 <!-- blank line -->
 
  
-#splash screen
+# Splash screen
 
 <!-- blank line -->
 <img class="ui bottom aligned tiny image" src="newSplash.jpg" height = "600" width="360">
 <!-- blank line -->
 
-#signup 
+# Signup 
 
 <!-- blank line -->
 <img class="ui bottom aligned tiny image" src="Screenshot_2020-09-27-10-33-27-00_ee015900260ab508ba0bf0f18dc28a83.jpg" height = "600" width="360">
 <!-- blank line -->
 
-#validation
+# Validation
 <!-- blank line -->
 <img class="ui bottom aligned tiny image" src="Screenshot_2020-09-27-10-34-21-23_ee015900260ab508ba0bf0f18dc28a83.jpg" height = "600" width="360">
 <!-- blank line -->
